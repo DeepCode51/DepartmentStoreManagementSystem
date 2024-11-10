@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 12px / 22px Verdana, Geneva, sans-serif;
+    background: #FFFFFF;
+    color: #333;
+}
+
+/*top��ʼ*/
+.login_menu {
+    height: 30px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.07);
+}
+
+#error{
+    padding: 10px auto;
+    font-size: 20px;
+    color: red;
+}
+
+.login_container {
+    width: 960px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.m_left {
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.m_left li {
+    float: left;
+}
+
+.login_container a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.login_container a:hover {
+    color: black;
+}
+
+.m_right {
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+.m_right li {
+    float: left;
+    margin-left: 15px;
+}
+
+.m_right img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.login_container .c_red {
+    color: red;
+}
+
+.logo_search {
+    width: 960px;
+    margin: 0 auto;
+    height: 110px;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+}
+
+.search {
+    float: right;
+    position: relative;
+    top: 40px;
+    left: -100px;
+}
+
+#qname {
+    border: #f00 3px solid;
+    width: 440px;
+    height: 30px;
+    float: left;
+    padding: 0 10px;
+}
+
+.query_button {
+    width: 140px;
+    height: 36px;
+    background: #ff0000;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_bar {
+    background: #ff4c11;
+    height: 30px;
+}
+
+.nav_bar_container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nav_bar_container ul li {
+    float: left;
+    color: #cccccc;
+    margin-right: 5px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.nav_bar_container ul li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*top����*/
+
+/*middleģ�鿪ʼ*/
+
+#middle {
+    width: 960px;
+    margin: 5px auto;
+    overflow:hidden;
+
+}
+
+.p_left {
+    float: left;
+    width: 181px;
+}
+
+.p_category {
+    border: 1px solid #c3c3c3;
+}
+
+.p_category h2 {
+    background: #cc0000;
+    font-size: 14px;
+    color: white;
+    padding: 2px 8px;
+}
+
+.p_category dt {
+    color: #404040;
+    font-weight: bold;
+    background: #fafafa;
+    padding: 2px 10px;
+}
+
+.p_category dt > a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.p_category dd {
+    margin-left: 10px;
+    background: url(../images/bg.png) -232px -82px no-repeat;
+    padding-left: 25px;
+}
+
+.p_category dd > a {
+    color: #666;
+    text-decoration: none;
+}
+
+.p_category dd > a:hover {
+    text-decoration: underline;
+}
+
+/*-----------------------------*/
+.p_center {
+    float: left;
+    margin: 0px 10px;
+}
+
+.pre_look {
+    border: 1px solid #c3c3c3;
+    margin-top: 10px;
+    overflow:hidden;
+}
+
+.pre_look h3 {
+    background: #cc0000;
+    color: white;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.pre_look dl {
+    margin: 5px;
+}
+
+.pre_look dl dt {
+    float: left;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.pre_look dl dt img {
+    border: 1px solid #ccc;
+}
+
+.pre_look dl dd {
+    height: 60px;
+    margin-left: 66px;
+}
+
+.pre_look dl dd a {
+    color: #666;
+    text-decoration: none
+}
+
+.p_list {
+    width: 300px;
+    border-bottom: 2px solid #cccccc;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+
+}
+
+.p_info {
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    background: #ffffff;
+    top: -10px;
+    left: 100px;
+}
+
+.p_info img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+ul.product2 {
+    margin-top: 30px;
+    width: 522px;
+    /*border: 1px solid red;*/
+}
+
+ul.product2 li {
+    width: 110px;
+    line-height: 15px;
+    height: 150px;
+    float: left;
+    margin: 5px 9px;
+    border: 1px dotted #cccccc;
+    background: lavenderblush;
+
+}
+
+ul.product2 li dl dt {
+    text-align: center;
+}
+
+ul.product2 li dl dt img {
+    width: 100px;
+    height: 100px;
+
+}
+
+ul.product2 li dl dd.title {
+    height: 30px;
+    overflow: hidden;
+    text-align:center;
+
+}
+
+ul.product2 li dl dd.title a {
+    color: #666;
+    padding-left: 10px;
+    text-decoration:none;
+    
+}
+
+ul.product2 li dl dd.price {
+    color: #c30;
+    font-weight: bold;
+    text-align:center;
+}
+
+.pager {
+    margin-top: 15px;
+    clear: both;
+
+}
+
+.pager a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.pager ul {
+    float: right;
+}
+
+.pager ul li {
+    float: left;
+    border: 1px solid #eee;
+    line-height: 18px;
+    padding: 0 3px;
+    margin: 0 1px;
+    display: inline;
+}
+
+.pager ul li.current {
+    font-weight: bold;
+    color: #630;
+}
+
+/*middleģ�����*/
+
+/*rightģ�鿪ʼ*/
+#p_right {
+    margin-left: 2px;
+    width: 230px;
+    float: left;
+}
+
+.newsList {
+    border: 1px solid #cccccc;
+}
+
+.newsList h2 {
+    height: 30px;
+    background: white;
+    line-height: 30px;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 25px;
+    background: url("../images/icon_news.png") no-repeat 2px 8px;
+}
+
+.newsList li {
+    background: url("../images/icon_sj.png") no-repeat 5px 10px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+}
+
+.newsList li > a {
+    color: rgba(14, 14, 14, 0.58);
+    text-decoration: none;
+}
+
+.newsList li > a:hover {
+    text-decoration: underline;
+}
+
+.hot_sale {
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+}
+
+.hot_sale h2 {
+    background: url("../images/icon_Recommend.png") no-repeat 2px 6px;
+    padding-left: 28px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.hot_sale li {
+
+    height: 80px;
+    padding: 7px;
+   
+}
+
+.hot_sale li dt img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.hot_sale li .p_name {
+    height: 40px;
+    padding-top: 10px;
+}
+
+.hot_sale li .p_name a {
+    text-decoration: none;
+    color: #4c4d4b;
+}
+
+.hot_sale li .p_name a:hover {
+    text-decoration: underline;
+    color: #4c4d4b;
+}
+
+.hot_sale li .price{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+/*rightģ�����*/
+
+/*�ײ�ģ�鿪ʼ*/
+#foot{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    font-size: 14px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.07);
+}
+
+/*�ײ�ģ�����*/
+

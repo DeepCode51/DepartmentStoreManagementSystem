@@ -1,0 +1,24 @@
+	*{margin:0px;padding:0px}/*ul默认有padding值*/
+	 img{border:0px}/*ie超链接的图片默认有边框*/
+	 ul,li{list-style-type:none;}
+	 /*wrapper主要作用就是水平居中，高度可以省略,因为根据内部内容自适应*/
+	 #wrapper{width:520px;height:280px;margin:0px auto;}
+	 /*内部的ul会相对focus左右移动,超过部分隐藏,左右图标,span都也参照此放*/
+	 #focus{width:520px;height:280px;position:relative;overflow:hidden}
+	 /*长度应该是多张图片的宽度，后续设置,设置position:absolute，目的是参照focus层左右移动,看是否加float:left*/
+	 #focus ul{height:280px;position:absolute;}
+	 /*左浮动，图片在一行上显示*/
+	 #focus ul li{float:left;}
+	 /**********************后续设置**********************/
+	 /*放在focus的底部*/
+	 #focus .icon{width:520px;height:20px;position:absolute;left:0px;top:260px;text-align:center;padding:2px 0px}
+	 /*设置小方块display:inline-block;一行显示，当块级标签使用，可以设置高和宽*/
+	 #focus span{display:inline-block;width:25px;height:12px;cursor:pointer;background:orange;margin-left:5px}
+	 /*设置手移到span上时候的样式，用到的时候再设置*/
+	 #focus span.on{background:blue;}
+	 /*左右按钮共性的内容,宽度和高度，相对focus定位，手势*/
+	 #focus .prenext{width:180px;height:280px;position:absolute;top:0px;cursor:pointer}
+	 /*设置背景图片，不重复，靠左中*/
+	 #focus .pre{left:0px;background:url("../images/spritel.png") no-repeat left center}
+	  /*设置背景图片，不重复，靠右中*/
+	 #focus .next{right:0px;background:url("../images/spriter.png") no-repeat right center}
